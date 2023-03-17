@@ -22,7 +22,6 @@ const Support = () => {
       width: 200,
       renderCell: (params) => moment(params.value).format('DD/MM/YYYY HH:mm'),
       valueGetter: ({ value }) => value && new Date(value),
-
       type: 'date',
     },
     {
